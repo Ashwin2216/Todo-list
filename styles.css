@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(64, 73, 105);
+}
+h1 {
+  color: whitesmoke;
+}
+.container {
+  max-width: 400px;
+}
+
+.todo-list li {
+  background: rgba(239, 239, 239, 0.1);
+  color: #e0fcff;
+}
+.filter-out {
+  display: none !important  ;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+input[type="text"]::placeholder {
+  color: #ff7f50;
+}
+
+.delete {
+  cursor: pointer;
+  color: #ff7f50;
+}
+.add label {
+  color: #ff7f50;
+}
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
